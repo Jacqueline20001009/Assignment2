@@ -2,7 +2,7 @@
 #define Player_h
 
 #include<iostream>
-#include "player.h"
+#include "Player.h"
 using namespace std;
 
 class player

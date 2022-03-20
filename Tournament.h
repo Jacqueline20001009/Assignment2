@@ -8,7 +8,7 @@
 #include "FistfullODollars.h"
 #include "Human.h"
 #include "PaperDoll.h"
-#include "player.h"
+#include "Player.h"
 #include "RandomComputer.h"
 #include "Referee.h"
 #include "Toolbox.h"

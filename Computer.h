@@ -2,7 +2,7 @@
 #define COMPUTER_h
 #include <iostream>
 #include "Computer.h"
-#include "player.h"
+#include "Player.h"
 using namespace std;
 
 
