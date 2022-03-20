@@ -3,7 +3,7 @@
 #include "Player.h"
 #include "Human.h"
 #include <iostream>
-class Human:public player
+class Human:public Player
 {
     
 public:

@@ -2,14 +2,14 @@
 #include <iostream>
 using namespace std;
 
-player::player(){
+Player::Player(){
     input=' ';
 }
-string player::getName(){
+string Player::getName(){
        return Name;
 }
 
 
-player::~player(){
+Player::~Player(){
 
 }

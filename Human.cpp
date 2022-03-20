@@ -5,7 +5,7 @@ using namespace std;
 
 
 Human::Human(){
-     Name="Hplayer";
+     Name="HPlayer";
 }
 char Human::makeMove(){
     cout<<"Enter move: ";

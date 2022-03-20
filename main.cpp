@@ -21,7 +21,7 @@ using namespace std;
 int main(){
      Referee aPlayer;
      Tournament tournament;
-     array<player *, 8>  competitors;
+     array<Player *, 8>  competitors;
 
      competitors[0]=new Avalanche();
      competitors[1]=new Bureaucrat();

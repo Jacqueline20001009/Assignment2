@@ -9,7 +9,7 @@ class Referee
     
    public: 
     Referee();
-    char refGame(player *player1,player *player2);//player1 is computer term and player2 is Human term
+    char refGame(Player *Player1,Player *Player2);//Player1 is computer term and Player2 is Human term
     ~Referee();
     
 

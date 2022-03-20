@@ -18,10 +18,10 @@ Tournament::Tournament()
 {
     
 }
-player * Tournament::run(array<player *, 8>  competitors){
+Player * Tournament::run(array<Player *, 8>  competitors){
 
-    array<player *, 4>  fourcompetitors;
-    array<player *, 2>  twocompetitors;
+    array<Player *, 4>  fourcompetitors;
+    array<Player *, 2>  twocompetitors;
 int count=0;
  Referee aPlayer;
 int i;

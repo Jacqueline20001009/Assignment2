@@ -5,16 +5,16 @@
 #include "Player.h"
 using namespace std;
 
-class player
+class Player
 {
 
 public:
-    player();
+    Player();
    virtual char makeMove() = 0;//pure virtual
    string Name;
    char input;
     string getName();
-    ~player();
+    ~Player();
 
 };
 #endif

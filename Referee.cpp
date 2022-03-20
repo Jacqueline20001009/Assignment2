@@ -10,10 +10,10 @@ Referee::Referee(){
 
     
 }
-char Referee::refGame(player *player1,player *player2){
+char Referee::refGame(Player *Player1,Player *Player2){
     char result=' ';
-    char N1= player1->makeMove();
-    char N2=player2->makeMove();
+    char N1= Player1->makeMove();
+    char N2=Player2->makeMove();
 
     if(N1==N2){
         return 'T';
