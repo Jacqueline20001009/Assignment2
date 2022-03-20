@@ -18,7 +18,7 @@ char Referee::refGame(Player *Player1,Player *Player2){
     if(N1==N2){
         return 'T';
     }
-    else if(N1=='S'&& N2=='P' || N1=='P'&& N2=='R' || N1=='R'&& N2=='S'){
+    else if((N1=='S'&& N2=='P') || (N1=='P'&& N2=='R') || (N1=='R'&& N2=='S')){
         return 'W';
     }
     else{

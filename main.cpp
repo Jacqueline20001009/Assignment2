@@ -28,7 +28,7 @@ int main(){
      competitors[2]=new Bureaucrat();
      competitors[3]=new Toolbox();
      competitors[4]=new Toolbox();
-     competitors[5]=new PaperDoll();
+     competitors[5]=new Crescendo();
      competitors[6]=new Crescendo();
      competitors[7]=new FistfullODollars();
 

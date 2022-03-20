@@ -8,6 +8,7 @@ class Toolbox:public Computer
 {
 
 public:
+
     Toolbox();
    char makeMove();
     ~Toolbox();

@@ -6,11 +6,11 @@ using namespace std;
 
 FistfullODollars::FistfullODollars()
 {
-    
+    count=0;
 }
  char FistfullODollars:: makeMove(){
      char array[3]={'R','P','P'};
-     int count;
+
      Name = "FistfullODollars";
      if(count%3==2){
          input = 'P';

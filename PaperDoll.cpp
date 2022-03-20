@@ -5,10 +5,11 @@ using namespace std;
 
 PaperDoll::PaperDoll()
 {
+    count=0;
 }
 char PaperDoll::makeMove(){
     char array[3]={'P','S','S'};
-     int count;
+
      Name = "PaperDoll";
      if(count%3==2){
          input = 'S';

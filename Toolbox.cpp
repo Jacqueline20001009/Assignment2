@@ -6,10 +6,11 @@ using namespace std;
 
 Toolbox::Toolbox()
 {
+
 }
 char Toolbox::makeMove(){
     Name="Toolbox";
-   return 'R';
+   return 'S';
 }
 Toolbox::~Toolbox()
 {

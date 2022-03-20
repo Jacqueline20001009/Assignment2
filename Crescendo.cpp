@@ -6,11 +6,11 @@ using namespace std;
 
 Crescendo::Crescendo()
 {
-    
+    count=0;
 }
  char Crescendo:: makeMove(){
      char array[3]={'P','S','R'};
-     int count;
+
      Name = "Crescendo";
      if(count%3==2){
          input = 'R';

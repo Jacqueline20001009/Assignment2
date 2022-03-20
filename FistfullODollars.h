@@ -9,6 +9,7 @@ class FistfullODollars:public Computer
    
 public:
     FistfullODollars();
+    int count;
     char makeMove();
     ~FistfullODollars();
 };
